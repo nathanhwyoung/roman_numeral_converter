@@ -1,6 +1,6 @@
 var romanNumerizer = function(input) {
 
-    testArray = input.split("");
+    var testArray = input.split("");
 
     var stringArray = testArray.reverse();
 
