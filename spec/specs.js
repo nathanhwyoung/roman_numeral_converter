@@ -27,9 +27,13 @@ describe('romanNumerizer', function() {
     it("M is 1000", function() {
         expect(romanNumerizer("1000")).to.equal("M");
     });
-    
+
     it("MMIX is 2009", function() {
         expect(romanNumerizer("2009")).to.equal("MMIX");
+    });
+
+    it("CVII is 107", function() {
+        expect(romanNumerizer("107")).to.equal("CVII");
     });
 
     it("MMDCCXCIX is 2899", function() {

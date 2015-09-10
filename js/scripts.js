@@ -1,6 +1,9 @@
 var romanNumerizer = function(input) {
-    // debugger;
-    var stringArray = input.split("").reverse();
+
+    testArray = input.split("");
+
+    var stringArray = testArray.reverse();
+
     var place1 = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
     var place2 = ["X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"];
     var place3 = ["C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"];
@@ -24,16 +27,14 @@ var romanNumerizer = function(input) {
 };
 
 
-// $(document).ready(function()  {
-//
-//     $("form#countupby").submit(function(event) {
-//         var endNumber = ($("input#endNumber").val());
-//         var incrementer = ($("input#incrementer").val());
-//         var result = countUpBy(endNumber, incrementer);
-//
-//         $(".output").text(result);
-//
-//         $("#result").show();
-//         event.preventDefault();
-//     });
-// });
+$(document).ready(function() {
+    $("form#roman").submit(function(event) {
+        var input = ($("input#input").val());
+        var result = romanNumerizer(input);
+
+        $(".output").text(result);
+
+        $("#result").show();
+        event.preventDefault();
+    });
+});
