@@ -1,29 +1,21 @@
 # Pig Latin Translator
 
-##### A web page that identifies if a word, phrase, number, or other sequence of characters is a palindrome. (9/9/15)
+##### A web site that translates numbers into Roman Numerals (11/02/2015)
 
-#### By Logan Wu & Nathan Young
-
-## Description
-
-A palindrome is any word, phrase, number, or other sequence of characters which reads the same backward or forward.
-
-## Specs
-
-* Returns true if the input reads the same forward as backward.
-* Returns false if the input does not read the same forward as backward.
+#### By Nathan Young
 
 ## Setup
 
 * Clone the project using the link provided on Github in the Terminal.
+* Open roman_numeral.html in any browser
 
 ## Technologies Used
 
-HTML, CSS, JavaScript, jQuery, Mocha and Chai for testing
+HTML, CSS, JavaScript, jQuery
 
 ### Legal
 
-Copyright (c) 2015 **Logan Wu & Nathan Young**
+Copyright (c) 2015 **Nathan Young**
 
 This software is licensed under the MIT license.
 
