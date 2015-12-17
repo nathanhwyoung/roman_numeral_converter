@@ -7,7 +7,7 @@
 ## Setup
 
 * Clone the project using the link provided on Github in the Terminal.
-* Open roman_numeral.html in any browser
+* Open index.html in any browser
 
 ## Technologies Used
 

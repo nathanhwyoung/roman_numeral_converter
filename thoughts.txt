@@ -1,0 +1,3 @@
+- use sass to create divs that will display a roman numeral chart
+
+- chart will feature animated images of the roman numerals
