@@ -2,10 +2,13 @@
 
 - chart will feature animated images of the roman numerals
 
-- feature picture of roman polanski
+- feature random picture of roman polanski (watch out for license!) that pops
+  up with the output
 
 - must change limit of number input to 3999 -> that is the  limit for roman numerals
 
 - use sass to form a color pattern for the numeral divs
 
 - media queries for smaller screens
+
+- ADD BOURBON

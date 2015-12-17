@@ -1,17 +1,17 @@
 # Numbers 2 Roman Numeralz
 
-##### A web site that translates numbers into Roman Numerals (11/02/2015)
+##### A web site that translates numbers into Roman Numeralz (11/02/2015)
 
 #### By Nathan Young
 
 ## Setup
 
-* Clone the project using the link provided on Github in the Terminal.
-* Open index.html in any browser
+* clone the project
+* open index.html
 
 ## Technologies Used
 
-HTML, CSS, JavaScript, jQuery
+HTML, CSS, JavaScript, jQuery, Sass
 
 ### Legal
 
