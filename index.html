@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script src="js/jquery-1.11.3.js"></script>
-        <script src="js/scripts.js"></script>
-        <title></title>
-    </head>
-    <body>
-              <form id="roman">
-                  <div>
-                      <label for="roman">TRANSLATE NUMBER TO ROMAN NUMERALS</label>
-                      <input type="number" id="input">
-                  </div>
-                  <button type="submit">GO!</button>
-              </form>
-              <div id="result">
-                  <h1><span class="output"></span></h1>
-              </div>
-    </body>
+
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <title></title>
+</head>
+
+<body>
+
+  <div class="numerals1-5">
+    <ul>
+      <li>I</li>
+      <li>II</li>
+      <li>III</li>
+      <li>IV</li>
+      <li>V</li>
+    </ul>
+  </div>
+
+  <div id="title">
+    <h1>ROMAN-POLANSKI-NUMERIZER</h1>
+  </div>
+
+  <div class="numerals6-10">
+    <ul>
+      <li>VI</li>
+      <li>VII</li>
+      <li>IIX</li>
+      <li>IX</li>
+      <li>X</li>
+    </ul>
+  </div>
+
+  <div id="form">
+    <form id="roman">
+      <input type="number" id="input">
+      <div>
+        <button id="button">GO!</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="result">
+    <h2>
+      <span class="output"></span>
+    </h2>
+  </div>
+
+</body>
+
 </html>

@@ -1,3 +1,11 @@
 - use sass to create divs that will display a roman numeral chart
 
 - chart will feature animated images of the roman numerals
+
+- feature picture of roman polanski
+
+- must change limit of number input to 3999 -> that is the  limit for roman numerals
+
+- use sass to form a color pattern for the numeral divs
+
+- media queries for smaller screens
