@@ -1,3 +1,9 @@
 #result {
   display: none;
 }
+
+body {
+  background-image: linear-gradient(#00cc99, #6666ff);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
